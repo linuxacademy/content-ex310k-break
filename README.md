@@ -24,18 +24,31 @@ launched as the ceph user with preconfigured, elevated privileges as
 demonstrated in the Linux Academy ex310k course. 
 
 #instructions
+
 1. Clone the repository to the Ceph user's home directory under /home/ceph/. 
+
 ---
+
 cd /home/ceph/
-git clone https://github.com/OGtrilliams/ex310k-break
+
+git clone https://github.com/OGtrilliams/content-ex310k-break
+
 ---
+
 2. Make break.sh executable
+
 ---
-sudo chmod +x /home/ceph/ex310k-break/break.sh
+
+sudo chmod +x /home/ceph/content-ex310k-break/break.sh
+
 ---
+
 3. Execute break.sh as the Ceph user
+
 ---
-cd ex310k-break 
+
+cd content-ex310k-break 
+
 ./break.sh
 ---
 4. Allow the script to run. Your system will reboot after deployment
