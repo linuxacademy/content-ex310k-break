@@ -45,6 +45,9 @@ sleep 2
 (crontab -l 2>/dev/null; echo "@reboot /home/ceph/content-ex310-break/mount.sh") crontab -
 
 sleep 5
+# add instructions to motd
+cat motd > /etc/motd
+sleep 3
 # reboot to set changes
 sleep 5
 # clear history 
