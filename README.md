@@ -1,6 +1,8 @@
 #README
 
 ## OpenStack Ceph deployment script for the Red Hat Certified Engineer in Red Hat OpenStack Prep Course
+[Linux Academy Red Hat Certified Engineer in Red Hat OpenStack Prep
+Course](https://linuxacademy.com/openstack/training/course/name/rhel-rhce-openstack)
 
 Version 1.0 created 06/27/2017
 
@@ -30,7 +32,7 @@ demonstrated in the Linux Academy ex310k course.
 ````
 cd /home/ceph/
 
-git clone https://github.com/OGtrilliams/content-ex310k-break
+git clone https://github.com/linuxacademy/content-ex310k-break
 
 ````
 
